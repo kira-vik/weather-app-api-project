@@ -30,7 +30,8 @@
 <!--ABOUT THE PROJECT-->
 ## About the Project
 
-![weather_app_api_image](https://github.com/kira-vik/weather-app-api-project/assets/35596661/bd22f1c7-4619-431c-abf8-01e7283d8d69)
+![weather_app_api_image](https://github.com/kira-vik/weather-app-api-project/assets/35596661/6b79fd2a-8acb-485d-81e8-8f17012fecb8)
+
 
 _Weather App_ is a project aimed at helping understand how APIs work, and how to handle JSON data. 
 
