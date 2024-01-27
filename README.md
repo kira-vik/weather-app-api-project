@@ -30,7 +30,7 @@
 <!--ABOUT THE PROJECT-->
 ## About the Project
 
-![istockphoto-680735792-612x612](https://github.com/kira-vik/Analyzing-StackOverflow-Survey-Data-with-Python/assets/35596661/1680874b-d07f-456b-b854-d2547d01a537)
+![api_image](https://github.com/kira-vik/weather-app-api-project/assets/35596661/ea963511-7590-43d8-930c-3bb094dda74d)
 
 _Weather App_ is a project aimed at helping understand how APIs work, and how to handle JSON data. 
 
