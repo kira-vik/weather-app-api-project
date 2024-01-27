@@ -119,7 +119,7 @@ As the project currently is, it can only be run programatically in the project t
 ## Author
 Victor Weke - @[kira-vik](https://github.com/kira-vik)
 
-Project Link: [here]
+Project Link: [Weather App](https://github.com/kira-vik/weather-app-api-project)
 
 
 <!--LICENSE-->
