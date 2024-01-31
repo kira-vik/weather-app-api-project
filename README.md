@@ -1,6 +1,5 @@
-<a name="readme-top"></a>
 <h1 align="center">Weather App: Working with APIs in Python</h1>
-
+<a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -25,22 +24,19 @@
   </ol>
 </details>
 
-
-
 <!--ABOUT THE PROJECT-->
 ## About the Project
 
 ![weather_app_api_image](https://github.com/kira-vik/weather-app-api-project/assets/35596661/6b79fd2a-8acb-485d-81e8-8f17012fecb8)
 
+_Weather App_ is a project aimed at helping understand how APIs work, and how to handle JSON data.
 
-_Weather App_ is a project aimed at helping understand how APIs work, and how to handle JSON data. 
+It takes the city's name as user input, and uses [direct geocoding](https://openweathermap.org/api/geocoding-api) to get the geographical coordinates (lat, lon) of the city whose weather you are interested in. The geolocation acquired is then used to make a call to the OpenWeatherMap API to get the weather information, and finally display the retrieved data to the user.
 
-It takes the city's name as user input, and uses [direct geocoding](https://openweathermap.org/api/geocoding-api) to get the geographical coordinates (lat, lon) of the city whose weather you are interested in. The geolocation acquired is then used to make a call to the OpenWeatherMap API to get the weather information, and finally display the retrieved data to the user. 
-
-This project has been developed in VS Code, but it is okay to use your editor of choice. 
-
+This project has been developed in VS Code, but it is okay to use your editor of choice.
 
 ### Built With
+
 - Python 3.11.0
 - VS Code
 
@@ -48,17 +44,15 @@ This project has been developed in VS Code, but it is okay to use your editor of
      [<a href="#readme-top">back to top</a>]
 </p>
 
-
-
 <!--GETTING STARTED-->
 ## Getting Started
 
 ### Prerequisites
 
-Here are a few of the resources that you will need in order to properly set up and run the project in your system. 
+Here are a few of the resources that you will need in order to properly set up and run the project in your system.
+
 - [Python](https://www.python.org/downloads/)
 - A code editor
-
 
 ### Installation
 
@@ -69,66 +63,74 @@ git clone {project-link}
 ```
 
 You can open the cloned repository in VS Code using the command in your project directory:
+
 ```bash
 code . {project-path}
 ```
 
 Set up a virtual environment to keep necessary dependencies isolated to this particular project:
+
 ```bash
 python -m venv {virtual_env_name}
 ```
 
 Activate the virtual environment:
-- On Windows: 
+
+- On Windows:
+
 ```bash
 {virtual_env_name}\Scripts\activate
 ```
 
 - On macOS/Linux:
+
 ```bash
 source {virtual_env_name}/bin/activate
 ```
 
 Download the required libraries using the command in your project terminal:
+
 ```bash
 pip install -r requirements.txt
 ```
 
 Get a free API Key at [OpenWeatherMap](https://openweathermap.org/). You will need to create an account and sign in in order to obtain the API Key. Enter your API KEY in `weather_app.py` main function:
+
 ```python
 API_KEY = "YOUR_API_KEY_GOES_HERE"
 ```
 
 Finally, run the program with the command:
+
 ```bash
 python weather_app.py
 ```
 
 ### Future Work
 
-As the project currently is, it can only be run programatically in the project terminal with the command made available above. This would pose a problem for someone who is not tech-inclined. As such, future development on the project will include a GUI to further simplify the program's use, and present results in a more organized and visually appealing manner. 
+As the project currently is, it can only be run programatically in the project terminal with the command made available above. This would pose a problem for someone who is not tech-inclined. As such, future development on the project will include a GUI to further simplify the program's use, and present results in a more organized and visually appealing manner.
 
 > _A PROBLEM FOR FUTURE ME_
-
 
 <p align="right">
      [<a href="#readme-top">back to top</a>]
 </p>
 
-
 <!--AUTHOR-->
+
 ## Author
+
 Victor Weke - @[kira-vik](https://github.com/kira-vik)
 
 Project Link: [Weather App](https://github.com/kira-vik/weather-app-api-project)
 
-
 <!--LICENSE-->
+
 ## License
+
 Copyright © 2024, Victor Weke.
 
-Distributed under the [MIT](https://choosealicense.com/licenses/mit/) license. See `LICENSE.txt` for more information. 
-
+Distributed under the [MIT](https://choosealicense.com/licenses/mit/) license. See `LICENSE.txt` for more information.
 
 <p align="right">
      [<a href="#readme-top">back to top</a>]
